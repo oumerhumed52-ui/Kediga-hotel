@@ -1,0 +1,120 @@
+
+  Index
+
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ከዲጋ ሆቴል - አዋሽ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #1b4d3e;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2c6b56;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1b4d3e;
+            border-bottom: 2px solid #2c6b56;
+            padding-bottom: 5px;
+        }
+        ul {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #1b4d3e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ከዲጋ ሆቴል (Kediga Hotel)</h1>
+        <p>በአዋሽ ከተማ የተሟላ እና ምቹ የሆቴል አገልግሎት</p>
+    </header>
+
+    <nav>
+        <a href="#home">መነሻ</a>
+        <a href="#services">አገልግሎቶች</a>
+        <a href="#about">ስለ እኛ</a>
+        <a href="#contact">ያግኙን</a>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h2>እንኳን ደህና መጡ!</h2>
+            <p>በአፋር ክልል አዋሽ ከተማ የሚገኘው <b>ከዲጋ ሆቴል</b> ለእረፍትም ሆነ ለሥራ ወደ ከተማዋ ለሚመጡ እንግዶች ጥራት ያለውና ዘመናዊ አገልግሎትን ይሰጣል።</p>
+        </section>
+
+        <section id="services" class="section">
+            <h2>የምንሰጣቸው አገልግሎቶች</h2>
+            <ul>
+                <li>🛏️ <b>ምቹ መኝታ ክፍሎች:</b> ንጹህ፣ ሰፊ እና ዘመናዊ አልጋዎች ያሏቸው ክፍሎች</li>
+                <li>🍽️ <b>ሬስቶራንት:</b> ጣፋጭ ባህላዊ እና ዘመናዊ ምግቦች</li>
+                <li>🥤 <b>ባር:</b> ቀዝቃዛና ሞቃታማ መጠጦች</li>
+                <li>🌐 <b>ዋይፋይ (Wi-Fi):</b> ለተጠቃሚዎች ፈጣን የበይነመረብ አገልግሎት</li>
+            </ul>
+        </section>
+
+        <section id="about" class="section">
+            <h2>ስለ ከዲጋ ሆቴል</h2>
+            <p>ደንበኞቻችንን በታማኝነት ማገልገል ዋና መርሆችን ነው። በጸጥታና ውብ አካባቢ የተገነባው ሆቴላችን የማይረሳ ቆይታ እንዲኖርዎት ተደርጎ የተዘጋጀ ነው።</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>ያግኙን</h2>
+            <p>📍 <b>አድራሻ:</b> አዋሽ ከተማ፣ አፋር ክልል፣ ኢትዮጵያ</p>
+            <p>📞 <b>ስልክ ቁጥር:</b> +251-9xxxxxxxx</p>
+            <p>📧 <b>ኢሜይል:</b> info@kedigahotel.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ከዲጋ ሆቴል. መብቱ በህግ የተጠበቀ ነው።</p>
+    </footer>
+
+</body>
+</html>
